@@ -1,7 +1,7 @@
 /* Paulo Alfredo Medeiros da Fonseca*/
 body{
     max-width: 1200px;
-    width: 100vw;
+    width: 100%;
     margin: auto;
     font: normal normal normal 12px/1.5 Verdana, Arial, Helvetica, sans-serif;
     padding: 20px;
@@ -17,7 +17,7 @@ body{
 main{
     float: left;
     clear: left;
-    width: 55vw;
+    width: 60%;
     padding: 10px;
     margin: 10px;
 }
@@ -25,7 +25,7 @@ main{
 aside{
     float: right;
     clear: right;
-    width: 25vw;
+    width: 30%;
     padding: 10px;
     margin: 10px;
 }
@@ -60,12 +60,12 @@ figcaption{
 q{
     font-family: cursive;
     font-style: italic;
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 
 ul li{
     list-style-type: none;
-    line-height: 1.5;
+    line-height: 2;
 }
 
 ul > li > a{
