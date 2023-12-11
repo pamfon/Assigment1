@@ -1,0 +1,90 @@
+<!--Paulo Alfredo Medeiros da Fonseca 8903202 -->
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Website about Lin-Manuel_Miranda">
+    <meta name="keywords" content="Lin-Manuel_Miranda, Lin-Manuel_Miranda Biography, Hamilton, Lin, Manuel, Miranda, Lin-Manuel, Manuel Miranda">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <title>Lin-Manuel Miranda</title>
+</head>
+<body>
+    <header class="topbot">
+        <h1>Lin-Manuel Miranda</h1>
+    </header>
+    <nav class="topbot">
+        <ul>
+            <li><a href="index.html" >Home</a></li>
+            <li><button class="subnavbtn">Media</button >
+                <ul>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="videos.html">Videos</a></li>
+                </ul>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="mainaside">
+        <main>
+            <section>
+                <h2>Contact</h2>
+            <form>
+                <div>
+                    <label for="name">Name</label>
+                    <input  type="text" name="name" id="name" autofocus placeholder="Name" required>
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="email@email.com" required>
+                </div>
+                <div>
+                    <label for="phone">Phone</label>
+                    <br>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" required>
+                </div>
+                <div>
+                    <label for="birthday">Birthday:</label>
+                    <br>
+                    <input type="date" id="birthday" name="birthday">
+                </div>
+                <div>
+                    <label for="music">Whats your favorite Hamilton music?</label>
+                    <select name="music" id="music" required>
+                        <option value="0" selected disabled>Select Option</option>
+                        <option value="alexander-hamilton">Alexander Hamilton</option>
+                        <option value="my-shot">My Shot</option>
+                        <option value="helpless">Helpless</option>
+                        <option value="the-room-where-it-happens">The Room Where It Happens</option>
+                        <option value="ten-duel-comandments">Ten Duel Commandments</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="comment">Leave us a comment:</label><br>
+                    <textarea name="comment" id="comment" rows="4" required></textarea>
+                </div>
+                <div>
+                    <label for="human">I am a Human</label>
+                    <input type="checkbox" value="true" name="human" id="human" required>
+                </div>
+                <div>
+                    <input type="submit" id="submit" value="Submit">
+                </div>
+            </form>
+            </section>
+        </main>
+        <aside>
+            <h2 class="h2aside">Additional Information</h2>
+            <ul>
+                <li><a href="https://en.wikipedia.org/wiki/Lin-Manuel_Miranda" target="_blank">Wikipedia</a></li>
+                <li><a href="https://www.britannica.com/biography/Lin-Manuel-Miranda" target="_blank">Britannica</a></li>
+                <li><a href="https://www.linmanuel.com/" target="_blank">Official Website</a></li>
+            </ul>
+        </aside>
+    </section>
+    <footer class="topbot">
+        <p>&copy; Paulo Medeiros 2023</p>
+    </footer>
+</body>
+</html>
